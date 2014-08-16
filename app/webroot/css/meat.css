@@ -1,0 +1,180 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background:#FFFFFF url('../img/bg-green.jpg') repeat-x scroll left top;
+	margin:0pt;
+	padding:0pt;
+	font-family:"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Helvetica,Arial,sans-serif;	
+}
+
+#wrapper {
+	width:720px;
+	margin: 0 auto; 
+	text-align: left; 
+	padding-top:10px;
+	padding-bottom:10px; 
+}
+
+#footer {	
+	background-color:#000000;
+	clear:both;
+	color:#999999;
+	font-family:verdana;
+	font-size:10px;
+	line-height:1.4em;
+	margin-top:25px;
+	padding:15px 0pt;
+	text-align:center;
+}
+
+/* links */
+
+a:link, a:visited {
+ font-weight: bold;
+
+}
+a:hover {
+ color: #104c68;
+}
+
+a img {
+border:0pt none;
+}
+
+.meatingList img {
+	float: left;  
+}
+
+/* Invite List */
+#inviteeList {
+	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif; 
+}
+#inviteeList ul{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0pt;
+	min-height:23px;
+	padding:0pt;  
+}
+
+#inviteeList li{
+	clear: both; 
+	border-top:1px solid #E0E0E0;
+	padding:8px;
+}
+
+.inviteeName {
+	font-size:125%; 
+	font-weight: bold;
+}
+
+.inviteeListDate {
+	float: right; 
+	font-size:75%;
+}
+
+.inviteeListMessage {	
+	float:left; 
+	padding-left:5px; 
+	padding-right:20px; 
+}
+
+.inviteeName {
+	font-size:150%; 
+	font-weight: bold;
+}
+
+
+
+
+
+/* Forms */
+form {
+	clear: both;
+	margin-right: 20px;
+	padding: 0;
+	width: 80%;
+}
+fieldset {
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	padding: 16px 20px;
+}
+fieldset legend {
+	background:#fff;
+	color: #e32;
+	font-size: 160%;
+	font-weight: bold;
+}
+fieldset fieldset {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 16px 0;
+}
+fieldset fieldset legend {
+	font-size: 120%;
+	font-weight: normal;
+	margin-left: 20px;
+}
+fieldset fieldset div {
+	clear: left;
+	margin: 0 20px;
+}
+form div {
+	clear: both;
+	margin-bottom: 1em;
+	padding: .5em;
+	vertical-align: text-top;
+}
+form div.input {
+	color: #444;
+}
+form div.required {
+	color: #333;
+	font-weight: bold;
+}
+form div.submit {
+	border: 0;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 140px;
+}
+label {
+	display: block;
+	font-size: 110%;
+	padding-right: 20px;
+}
+input, textarea {
+	clear: both;
+	display: block;
+	font-size: 140%;
+	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+	padding: 2px;
+	width: 100%;
+}
+select {
+	clear: both;
+	font-size: 120%;
+	vertical-align: text-bottom;
+}
+select[multiple=multiple] {
+	width: 100%;
+}
+option {
+	font-size: 120%;
+	padding: 0 3px;
+}
+input[type=checkbox] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+input[type=submit] {
+	display: inline;
+	font-size: 110%;
+	padding: 2px 5px;
+	width: auto;
+	vertical-align: bottom;
+}
